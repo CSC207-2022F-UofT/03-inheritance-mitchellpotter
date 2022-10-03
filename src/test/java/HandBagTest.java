@@ -41,6 +41,9 @@ public class HandBagTest {
     public void testGetNumberOfContentsPop() {
         b.addItem("Cheese");
         b.addItem("Eggs");
+
+        System.out.println(b.contents);
+
         assertEquals("Eggs", b.popItem());
         assertEquals(1, b.getNumberOfContents());
     }

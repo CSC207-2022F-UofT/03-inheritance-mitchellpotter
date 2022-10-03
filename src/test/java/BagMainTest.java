@@ -30,6 +30,7 @@ public class BagMainTest {
         assertEquals(5, bags[1].getCapacity());
         assertEquals(6, bags[2].getCapacity());
         assertEquals(7, bags[3].getCapacity());
+
     }
     @Test(timeout = 50)
     public void TestEnhanceBagsFalse() {
